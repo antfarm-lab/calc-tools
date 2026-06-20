@@ -12,9 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "メルカリ・ラクマ利益計算ツール",
-  description: "販売価格・仕入れ価格・送料から利益と利益率を簡単に計算できます。",
+export const metadata: Metadata = {
+  title: "メルカリ・ラクマ利益計算ツール｜販売利益・利益率を自動計算",
+  description:
+    "メルカリ・ラクマの販売価格、仕入れ価格、送料から利益と利益率をすぐに計算できる無料ツールです。フリマ出品前の損益確認に使えます。",
 };
 
 export default function RootLayout({
@@ -24,8 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+  lang="ja"
+  className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
