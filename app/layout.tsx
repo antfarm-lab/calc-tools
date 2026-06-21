@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "メルカリ・ラクマ利益計算ツール｜販売利益・利益率を自動計算",
+  title: "メルカリ・ラクマ利益計算ツール｜販売利益を自動計算",
   description:
-    "メルカリ・ラクマの販売価格、仕入れ価格、送料から利益と利益率をすぐに計算できる無料ツールです。フリマ出品前の損益確認に使えます。",
+    "販売価格・仕入れ価格・送料・手数料から最終利益と利益率を自動計算できる無料ツール。メルカリやラクマ販売に便利です。",
+  verification: {
+    google: "miCxwdbgRhGe66W37cjiBB0MFNO1tB2WJxh9Dm_zTjc",
+  },
 };
 
 export default function RootLayout({
