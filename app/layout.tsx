@@ -27,12 +27,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
+   <html
   lang="ja"
   className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+>
+  <head>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7726060769550218"
+      crossOrigin="anonymous"
+    ></script>
+  </head>
 
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
-    </html>
+  <body className="min-h-full flex flex-col">{children}</body>
+</html>
   );
 }
