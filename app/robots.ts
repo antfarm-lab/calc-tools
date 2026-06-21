@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://calc-tools.vercel.app/sitemap.xml",
+    sitemap: "https://calc-tools-mauve.vercel.app/sitemap.xml",
   };
 }
