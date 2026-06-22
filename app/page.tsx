@@ -61,6 +61,26 @@ const fee = Math.floor(sell * feeRate);
 >
   リセット
 </button>
+<section className="mt-10 bg-white rounded-xl p-6">
+  <h2 className="text-xl font-bold mb-4">
+    メルカリ・ラクマ販売で利益計算が重要な理由
+  </h2>
+
+  <p className="mb-3">
+    フリマアプリで商品を販売すると、販売手数料や送料が差し引かれるため、
+    売上金額そのままが利益になるわけではありません。
+  </p>
+
+  <p className="mb-3">
+    特にメルカリでは販売手数料10%、ラクマでは手数料が発生するため、
+    正確な利益計算をしないと赤字になる可能性があります。
+  </p>
+
+  <p>
+    この利益計算ツールでは販売価格・仕入れ価格・送料・手数料を入力するだけで、
+    最終利益と利益率を自動計算できます。
+  </p>
+</section>
 <section className="mt-10 rounded-xl border bg-white p-5">
   <h2 className="mb-3 text-lg font-bold">ほかの便利ツール</h2>
   <div className="grid gap-2 text-sm">
