@@ -95,6 +95,29 @@ const fee = Math.floor(sell * feeRate);
 <a href="https://price-reverse-calc.vercel.app/">
   利益から販売価格を逆算するツール
 </a>
+<a className="text-blue-600 underline" href="https://amazon-fee-calc.vercel.app/">
+  Amazon販売手数料計算ツール
+</a>
+
+<a className="text-blue-600 underline" href="https://roi-calc-woad.vercel.app/">
+  ROI（投資利益率）計算ツール
+</a>
+
+<a className="text-blue-600 underline" href="https://profit-rate-calc.vercel.app/">
+  メルカリ利益率計算ツール
+</a>
+
+<a className="text-blue-600 underline" href="https://discount-rate-calc.vercel.app/">
+  割引率計算ツール
+</a>
+
+<a className="text-blue-600 underline" href="https://shipping-profit-calc.vercel.app/">
+  送料込み利益計算ツール
+</a>
+
+<a className="text-blue-600 underline" href="https://break-even-calc-one.vercel.app/">
+  損益分岐点計算ツール
+</a>
   </div>
 </section>
 <footer className="mt-8 text-center text-sm text-gray-500">
