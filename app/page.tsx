@@ -20,7 +20,7 @@ const fee = Math.floor(sell * feeRate);
 
   return (
     <main className="min-h-screen bg-gray-100 p-6">
-      <div className="max-w-xl mx-auto bg-white rounded-2xl shadow p-6">
+     <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow p-6">
         <h1 className="text-2xl font-bold mb-2">メルカリ・Amazon・ラクマ利益計算ツール</h1>
         <p className="text-gray-600 mb-6">
           販売価格・仕入れ価格・送料から、利益と利益率を自動計算します。
