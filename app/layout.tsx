@@ -13,9 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "メルカリ・Amazon・ラクマ利益計算ツール【無料】送料・手数料を自動計算",
-  description:
-    "メルカリ・Amazon・ラクマ販売で使える無料利益計算ツール。販売価格、仕入れ価格、送料、手数料から最終利益と利益率を自動計算できます。",
+ title: "利益計算ツール【無料】メルカリ・Amazon対応",
+description:
+  "メルカリ・Amazon・ラクマ販売で利益はいくら残るか無料で自動計算。送料・販売手数料・仕入れ価格を入力するだけで最終利益を確認できます。",
+keywords: [
+  "利益計算",
+  "メルカリ利益計算",
+  "Amazon利益計算",
+  "ラクマ利益計算",
+  "せどり",
+  "副業",
+],
   verification: {
     google: "miCxwdbgRhGe66W37cjiBB0MFNO1tB2WJxh9Dm_zTjc",
   },
